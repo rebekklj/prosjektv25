@@ -11,7 +11,7 @@ __maintainer__ = "Stian Backe"
 __email__ = "stian.backe@ntnu.no"
 
 UserRunTimeConfig = safe_load(open("config_run.yaml"))
-#heihei
+
 USE_TEMP_DIR = UserRunTimeConfig["USE_TEMP_DIR"]
 temp_dir = UserRunTimeConfig["temp_dir"]
 version = UserRunTimeConfig["version"]
