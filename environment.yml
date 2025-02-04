@@ -5,8 +5,8 @@ channels:
 dependencies:
   - cloudpickle>=1.0.0
   - openpyxl>=3.0.0
-  - pandas>=1.2
+  - pandas=1.2
   - pyomo>=6.0
-  - python>=3.7
+  - python=3.9
   - pyyaml>=5.1
   - glpk>=4.65git
